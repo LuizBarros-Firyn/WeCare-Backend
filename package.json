@@ -1,0 +1,33 @@
+{
+  "name": "estrutura-backend",
+  "version": "1.0.0",
+  "description": "Estrutura Backend JavaScript Markdigx",
+  "main": "index.js",
+  "repository": "https://gitlab.com/markdigx/estrutura-backend",
+  "author": "Luiz Barros",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.4.11",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1",
+    "sequelize-cli": "^6.2.0"
+  }
+}
